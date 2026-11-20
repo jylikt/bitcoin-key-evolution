@@ -1,0 +1,32 @@
+[
+  {
+    "call_site": "0x100eeb018",
+    "target": "0x1013073d0",
+    "file_offset": "0xeeb018",
+    "instruction": "0x941070ee"
+  },
+  {
+    "call_site": "0x100eeb03c",
+    "target": "0x1013073d0",
+    "file_offset": "0xeeb03c",
+    "instruction": "0x941070e5"
+  },
+  {
+    "call_site": "0x100eeb3e8",
+    "target": "0x1013073d0",
+    "file_offset": "0xeeb3e8",
+    "instruction": "0x94106ffa"
+  },
+  {
+    "call_site": "0x10129e9cc",
+    "target": "0x1013073d0",
+    "file_offset": "0x129e9cc",
+    "instruction": "0x9401a281"
+  },
+  {
+    "call_site": "0x10129f104",
+    "target": "0x1013073d0",
+    "file_offset": "0x129f104",
+    "instruction": "0x9401a0b3"
+  }
+]

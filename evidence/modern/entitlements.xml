@@ -1,0 +1,2 @@
+Executable=$APP/Contents/MacOS/Bitcoin-Qt
+warning: Specifying ':' in the path is deprecated and will not work in a future release

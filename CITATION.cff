@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: "Bitcoin Key Evolution: ключи, энтропия и проектные решения от 0.1.x до Core 32.1"
+message: "Если вы используете это исследование, пожалуйста, цитируйте его следующим образом."
+type: report
+authors:
+  - name: jylikt
+repository-code: "https://github.com/jylikt/bitcoin-key-evolution"
+url: "https://github.com/jylikt/bitcoin-key-evolution"
+version: 1.0.0
+date-released: 2026-11-20
+license: MIT
+languages:
+  - ru
+keywords:
+  - Bitcoin
+  - reverse engineering
+  - Ghidra
+  - OpenSSL
+  - wallet.dat
+  - entropy
+  - Satoshi Nakamoto

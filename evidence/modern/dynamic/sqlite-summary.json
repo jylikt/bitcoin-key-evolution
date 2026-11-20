@@ -1,0 +1,137 @@
+{
+  "unencrypted-lab": {
+    "path": "$LAB_DIR/regtest/wallets/unencrypted-lab/wallet.dat",
+    "size": 24576,
+    "mode": "0o600",
+    "integrity": "ok",
+    "application_id": -88099366,
+    "schema_version": 0,
+    "records": {
+      "activeexternalspk": {
+        "count": 4,
+        "min_value_len": 32,
+        "max_value_len": 32
+      },
+      "activeinternalspk": {
+        "count": 4,
+        "min_value_len": 32,
+        "max_value_len": 32
+      },
+      "bestblock": {
+        "count": 1,
+        "min_value_len": 5,
+        "max_value_len": 5
+      },
+      "bestblock_nomerkle": {
+        "count": 1,
+        "min_value_len": 37,
+        "max_value_len": 37
+      },
+      "flags": {
+        "count": 1,
+        "min_value_len": 8,
+        "max_value_len": 8
+      },
+      "name": {
+        "count": 1,
+        "min_value_len": 1,
+        "max_value_len": 1
+      },
+      "purpose": {
+        "count": 1,
+        "min_value_len": 8,
+        "max_value_len": 8
+      },
+      "version": {
+        "count": 1,
+        "min_value_len": 4,
+        "max_value_len": 4
+      },
+      "walletdescriptor": {
+        "count": 8,
+        "min_value_len": 159,
+        "max_value_len": 165
+      },
+      "walletdescriptorcache": {
+        "count": 8,
+        "min_value_len": 75,
+        "max_value_len": 75
+      },
+      "walletdescriptorkey": {
+        "count": 8,
+        "min_value_len": 247,
+        "max_value_len": 247
+      },
+      "walletdescriptorlhcache": {
+        "count": 8,
+        "min_value_len": 75,
+        "max_value_len": 75
+      }
+    }
+  },
+  "encrypted-lab": {
+    "path": "$LAB_DIR/regtest/wallets/encrypted-lab/wallet.dat",
+    "size": 20480,
+    "mode": "0o600",
+    "integrity": "ok",
+    "application_id": -88099366,
+    "schema_version": 0,
+    "records": {
+      "activeexternalspk": {
+        "count": 4,
+        "min_value_len": 32,
+        "max_value_len": 32
+      },
+      "activeinternalspk": {
+        "count": 4,
+        "min_value_len": 32,
+        "max_value_len": 32
+      },
+      "bestblock": {
+        "count": 1,
+        "min_value_len": 5,
+        "max_value_len": 5
+      },
+      "bestblock_nomerkle": {
+        "count": 1,
+        "min_value_len": 37,
+        "max_value_len": 37
+      },
+      "flags": {
+        "count": 1,
+        "min_value_len": 8,
+        "max_value_len": 8
+      },
+      "mkey": {
+        "count": 1,
+        "min_value_len": 67,
+        "max_value_len": 67
+      },
+      "version": {
+        "count": 1,
+        "min_value_len": 4,
+        "max_value_len": 4
+      },
+      "walletdescriptor": {
+        "count": 8,
+        "min_value_len": 159,
+        "max_value_len": 165
+      },
+      "walletdescriptorcache": {
+        "count": 8,
+        "min_value_len": 75,
+        "max_value_len": 75
+      },
+      "walletdescriptorckey": {
+        "count": 8,
+        "min_value_len": 49,
+        "max_value_len": 49
+      },
+      "walletdescriptorlhcache": {
+        "count": 8,
+        "min_value_len": 75,
+        "max_value_len": 75
+      }
+    }
+  }
+}

@@ -1,0 +1,328 @@
+===== LoadWallet @ 00412bb0 =====
+
+undefined4 LoadWallet(void)
+
+{
+  char cVar1;
+  int iVar2;
+  undefined1 *local_fc;
+  char *local_f8;
+  undefined1 *local_f4;
+  undefined1 *local_d4;
+  byte local_bd;
+  undefined1 *local_bc;
+  undefined1 *local_b8;
+  byte local_ad;
+  undefined4 local_a4;
+  undefined1 local_a0 [4];
+  undefined4 local_9c;
+  code *local_88;
+  undefined *local_84;
+  undefined1 *local_80;
+  undefined *local_7c;
+  undefined1 *local_78;
+  undefined1 local_6c [16];
+  undefined1 local_5c [16];
+  undefined1 local_4c [16];
+  undefined1 local_3c [16];
+  undefined1 local_2c [16];
+  undefined1 local_1c [12];
+  
+  local_78 = (undefined1 *)&local_fc;
+  local_88 = FUN_00846fc8;
+  local_84 = &DAT_009721a4;
+  local_80 = local_1c;
+  local_7c = &DAT_00413012;
+  local_fc = local_a0;
+  FUN_00853c68();
+  local_fc = local_3c;
+  FUN_00903514();
+  local_f8 = local_3c;
+  local_fc = local_2c;
+  local_9c = 9;
+  FUN_009398a4();
+  local_fc = local_3c;
+  FUN_00903558();
+  local_f4 = (undefined1 *)0x0;
+  local_f8 = "cr";
+  local_fc = local_5c;
+  local_9c = 8;
+  FUN_008c9fb4();
+  local_fc = local_5c;
+  local_f8 = local_2c;
+  local_9c = 7;
+  local_ad = CWalletDB_LoadWallet();
+  local_ad = local_ad ^ 1;
+  local_fc = local_5c;
+  local_9c = 8;
+  FUN_008c9fe4();
+  if (local_ad != 0) {
+    local_fc = local_2c;
+    local_9c = 0xffffffff;
+    FUN_00939f3c();
+    local_a4 = 0;
+    goto LAB_00413185;
+  }
+  local_f8 = local_2c;
+  local_fc = &DAT_00a158c0;
+  local_9c = 8;
+  iVar2 = FUN_008edc8c();
+  if (iVar2 == 0) {
+    local_fc = &DAT_00a15920;
+    local_9c = 8;
+    CKey_MakeNewKey();
+    local_fc = &DAT_00a15920;
+    cVar1 = FUN_0041c00e();
+    if (cVar1 == '\0') {
+      local_fc = local_2c;
+      local_9c = 0xffffffff;
+      FUN_00939f3c();
+      local_a4 = 0;
+      goto LAB_00413185;
+    }
+    local_fc = local_4c;
+    FUN_009034a8();
+    local_f4 = local_4c;
+    local_f8 = "Your Address";
+    local_fc = local_5c;
+    local_9c = 6;
+    FUN_0090d084();
+    local_b8 = local_5c;
+    local_bc = local_3c;
+    local_fc = local_6c;
+    local_f8 = &DAT_00a15920;
+    local_9c = 5;
+    FUN_008e3cd0();
+    local_f8 = local_6c;
+    local_fc = local_bc;
+    local_9c = 4;
+    FUN_0085df28();
+    local_fc = local_3c;
+    local_f8 = local_b8;
+    local_9c = 3;
+    local_bd = FUN_00860bfc();
+    local_bd = local_bd ^ 1;
+    local_fc = local_3c;
+    local_9c = 4;
+    FUN_0090d8bc();
+    local_fc = local_6c;
+    local_9c = 5;
+    FUN_00939f3c();
+    local_fc = local_5c;
+    local_9c = 6;
+    FUN_0090d8bc();
+    local_fc = local_4c;
+    FUN_009034d8();
+    if (local_bd != 0) {
+      local_fc = local_2c;
+      local_9c = 0xffffffff;
+      FUN_00939f3c();
+      local_a4 = 0;
+      goto LAB_00413185;
+    }
+    local_fc = local_6c;
+    local_f8 = &DAT_00a15920;
+    local_9c = 8;
+    FUN_008e3cd0();
+    local_d4 = local_6c;
+    local_f4 = (undefined1 *)0x0;
+    local_f8 = "r+";
+    local_fc = local_5c;
+    local_9c = 2;
+    FUN_008c9fb4();
+    local_fc = local_5c;
+    local_f8 = local_d4;
+    local_9c = 1;
+    FUN_008c9300();
+    local_fc = local_5c;
+    local_9c = 2;
+    FUN_008c9fe4();
+    local_fc = local_6c;
+    local_9c = 8;
+    FUN_00939f3c();
+  }
+  else {
+    local_f8 = local_2c;
+    local_fc = &DAT_00a15920;
+    FUN_008b35c0();
+    local_f8 = local_2c;
+    local_fc = &DAT_00a158c0;
+    local_f8 = (char *)FUN_009201a4();
+    local_fc = &DAT_00a15920;
+    FUN_008b31a0();
+  }
+  local_fc = local_2c;
+  local_9c = 0xffffffff;
+  FUN_00939f3c();
+  local_a4 = 1;
+LAB_00413185:
+  local_fc = local_a0;
+  FUN_00853d48();
+  return local_a4;
+}
+
+
+XREF 004696b0 FROM CMyApp_OnInit2 @ 004687e8
+===== AddKey @ 0041c00e =====
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+uint AddKey(undefined4 param_1)
+
+{
+  char *local_10c;
+  char *local_108;
+  undefined1 *local_104;
+  undefined1 *local_e4;
+  undefined1 *local_e0;
+  uint local_dc;
+  char *local_cc;
+  undefined *local_c8;
+  undefined1 *local_b8;
+  uint local_b4;
+  char local_b0 [4];
+  undefined4 local_ac;
+  code *local_98;
+  undefined *local_94;
+  undefined1 *local_90;
+  undefined *local_8c;
+  undefined1 *local_88;
+  char local_7c [16];
+  char local_6c [16];
+  char local_5c [16];
+  char local_4c [16];
+  char local_3c [31];
+  char local_1d;
+  undefined1 local_1c [12];
+  
+  local_88 = (undefined1 *)&local_10c;
+  local_98 = FUN_00846fc8;
+  local_94 = &DAT_00972ee8;
+  local_90 = local_1c;
+  local_8c = &DAT_0041c454;
+  local_10c = local_b0;
+  FUN_00853c68();
+  local_1d = '\x01';
+  while (local_1d != '\0') {
+    local_108 = &DAT_00a15900;
+    local_10c = local_3c;
+    local_ac = 0xffffffff;
+    FUN_008787dc();
+    while (local_1d != '\0') {
+      _DAT_00a15918 = "main.cpp";
+      _DAT_00a1591c = 0x43;
+      local_10c = local_4c;
+      local_108 = (char *)param_1;
+      local_ac = 8;
+      CKey_GetPrivKey();
+      local_b8 = local_4c;
+      local_10c = local_5c;
+      local_108 = (char *)param_1;
+      local_ac = 7;
+      FUN_008e3cd0();
+      local_108 = local_5c;
+      local_10c = &DAT_00a158c0;
+      local_ac = 6;
+      local_10c = (char *)FUN_009201a4();
+      local_108 = local_b8;
+      FUN_00937594();
+      local_10c = local_5c;
+      local_ac = 7;
+      FUN_00939f3c();
+      local_10c = local_4c;
+      local_ac = 8;
+      FUN_009374e0();
+      local_10c = local_5c;
+      local_108 = (char *)param_1;
+      FUN_008e3cd0();
+      local_c8 = local_5c;
+      local_cc = local_7c;
+      local_10c = local_4c;
+      local_108 = (char *)param_1;
+      local_ac = 5;
+      FUN_008e3cd0();
+      local_108 = local_4c;
+      local_10c = local_cc;
+      local_ac = 4;
+      FUN_00861fc8();
+      local_108 = local_7c;
+      local_10c = &DAT_00a158d8;
+      local_10c = (char *)FUN_0091cfd4();
+      local_108 = local_c8;
+      FUN_0093a0a4();
+      local_10c = local_4c;
+      local_ac = 5;
+      FUN_00939f3c();
+      local_10c = local_5c;
+      local_ac = 8;
+      FUN_00939f3c();
+      _DAT_00a15918 = (char *)0x0;
+      _DAT_00a1591c = 0;
+      local_1d = '\0';
+    }
+    local_10c = local_3c;
+    local_ac = 0xffffffff;
+    FUN_00878808();
+    if (local_1d != '\0') {
+      local_104 = (undefined1 *)0x43;
+      local_108 = "main.cpp";
+      local_10c = "(\"break caught by CRITICAL_BLOCK!\", !fcriticalblockonce)";
+      assert();
+    }
+    local_1d = '\0';
+  }
+  local_10c = local_7c;
+  local_108 = (char *)param_1;
+  local_ac = 0xffffffff;
+  CKey_GetPrivKey();
+  local_e0 = local_7c;
+  local_10c = local_6c;
+  local_108 = (char *)param_1;
+  local_ac = 3;
+  FUN_008e3cd0();
+  local_e4 = local_6c;
+  local_104 = (undefined1 *)0x0;
+  local_108 = "r+";
+  local_10c = local_5c;
+  local_ac = 2;
+  FUN_008c9fb4();
+  local_10c = local_5c;
+  local_104 = local_e0;
+  local_108 = local_e4;
+  local_ac = 1;
+  local_dc = FUN_008c986c();
+  local_dc = local_dc & 0xff;
+  local_10c = local_5c;
+  local_ac = 2;
+  FUN_008c9fe4();
+  local_10c = local_6c;
+  local_ac = 3;
+  FUN_00939f3c();
+  local_10c = local_7c;
+  local_ac = 0xffffffff;
+  FUN_009374e0();
+  local_b4 = local_dc;
+  local_10c = local_b0;
+  FUN_00853d48();
+  return local_b4;
+}
+
+
+XREF 00412d95 FROM LoadWallet @ 00412bb0
+XREF 0041c5e4 FROM GenerateNewKey @ 0041c582
+XREF 00430277 FROM BitcoinMiner @ 0042f028
+===== CMainFrame_OnMouseEvents @ 0043b14e =====
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void CMainFrame_OnMouseEvents(undefined4 param_1,int param_2)
+
+{
+  RandAddSeed(0);
+  RAND_add(param_2 + 0x24,4,_DAT_00994f28);
+  RAND_add(param_2 + 0x28,4,_DAT_00994f28);
+  return;
+}
+
+
+XREF 009eeb8c FROM <none>

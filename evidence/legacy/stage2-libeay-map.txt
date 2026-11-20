@@ -1,0 +1,1101 @@
+PROGRAM libeay32.dll IMAGE BASE 61d80000
+FUNCTION _SSLeay_version @ 61d81180 thunk=false external=false
+  XREF 61e5903c FROM <data/none>
+  XREF Entry Point FROM <data/none>
+FUNCTION _BN_rand @ 61d996a0 thunk=false external=false
+  XREF Entry Point FROM <data/none>
+  XREF 61e15bac FROM _BN_generate_prime_ex @ 61e159c0
+  XREF 61e15ce7 FROM _BN_generate_prime_ex @ 61e159c0
+  XREF 61e15e3e FROM _BN_generate_prime_ex @ 61e159c0
+  XREF 61e1284e FROM _BN_GF2m_mod_solve_quad_arr @ 61e124d0
+  XREF 61d99749 FROM bn_rand_range @ 61d99730
+  XREF 61d997e6 FROM bn_rand_range @ 61d99730
+  XREF 61d99876 FROM bn_rand_range @ 61d99730
+FUNCTION _BN_pseudo_rand @ 61d996d0 thunk=false external=false
+  XREF Entry Point FROM <data/none>
+  XREF 61df2f5f FROM _BN_mod_sqrt @ 61df2dc0
+  XREF 61d9973f FROM bn_rand_range @ 61d99730
+FUNCTION _BN_rand_range @ 61d998e0 thunk=false external=false
+  XREF Entry Point FROM <data/none>
+  XREF 61d9dd58 FROM _DSA_generate_key @ 61d9dcf0
+  XREF 61dc0c74 FROM _BN_BLINDING_create_param @ 61dc0ba0
+  XREF 61e095b5 FROM _EC_KEY_generate_key @ 61e09510
+  XREF 61dd593c FROM <data/none>
+  XREF 61e19e85 FROM <data/none>
+FUNCTION _BN_pseudo_rand_range @ 61d99900 thunk=false external=false
+  XREF Entry Point FROM <data/none>
+  XREF 61e155a3 FROM _BN_is_prime_fasttest_ex @ 61e15410
+FUNCTION _RAND_get_rand_method @ 61dabcf0 thunk=false external=false
+  XREF Entry Point FROM <data/none>
+FUNCTION _RAND_seed @ 61dabeb0 thunk=false external=false
+  XREF Entry Point FROM <data/none>
+FUNCTION _RAND_add @ 61dabf30 thunk=false external=false
+  XREF Entry Point FROM <data/none>
+  XREF 61d994c8 FROM bnrand @ 61d99440
+  XREF 61dd05ef FROM _EVP_PKEY2PKCS8_broken @ 61dd01f0
+  XREF 61da9053 FROM _PEM_ASN1_write_bio @ 61da8f80
+  XREF 61dac1bb FROM _RAND_load_file @ 61dac180
+  XREF 61dac256 FROM _RAND_load_file @ 61dac180
+  XREF 61dac514 FROM _RAND_event @ 61dac4b0
+  XREF 61dac527 FROM _RAND_event @ 61dac4b0
+  XREF 61dac537 FROM _RAND_event @ 61dac4b0
+  XREF 61dac548 FROM _RAND_event @ 61dac4b0
+  XREF 61dac5e7 FROM _RAND_event @ 61dac4b0
+  XREF 61dac7eb FROM _RAND_poll @ 61dac610
+  XREF 61dac859 FROM _RAND_poll @ 61dac610
+  XREF 61daca17 FROM _RAND_poll @ 61dac610
+  XREF 61daca65 FROM _RAND_poll @ 61dac610
+  XREF 61dacbac FROM _RAND_poll @ 61dac610
+  XREF 61dacbd3 FROM _RAND_poll @ 61dac610
+  XREF 61dacbea FROM _RAND_poll @ 61dac610
+  XREF 61dacc52 FROM _RAND_poll @ 61dac610
+  XREF 61dacc67 FROM _RAND_poll @ 61dac610
+  XREF 61daccb1 FROM _RAND_poll @ 61dac610
+  XREF 61daccd9 FROM _RAND_poll @ 61dac610
+  XREF 61dacd30 FROM _RAND_poll @ 61dac610
+  XREF 61dacd68 FROM _RAND_poll @ 61dac610
+  XREF 61dacda3 FROM _RAND_poll @ 61dac610
+  XREF 61dacdd8 FROM _RAND_poll @ 61dac610
+  XREF 61dacdfb FROM _RAND_poll @ 61dac610
+  XREF 61dacfc7 FROM _RAND_screen @ 61dace80
+FUNCTION _RAND_bytes @ 61dabfe0 thunk=false external=false
+  XREF Entry Point FROM <data/none>
+  XREF 61d994dd FROM bnrand @ 61d99440
+  XREF 61da3118 FROM _EVP_CIPHER_CTX_rand_key @ 61da3090
+  XREF 61dac33a FROM _RAND_write_file @ 61dac2b0
+  XREF 61dc54de FROM <data/none>
+FUNCTION _RAND_pseudo_bytes @ 61dac070 thunk=false external=false
+  XREF Entry Point FROM <data/none>
+  XREF 61d99525 FROM bnrand @ 61d99440
+  XREF 61d9955c FROM bnrand @ 61d99440
+  XREF 61e1b157 FROM _DSA_generate_parameters_ex @ 61e1aa90
+  XREF 61da9071 FROM _PEM_ASN1_write_bio @ 61da8f80
+  XREF 61da9314 FROM _PEM_ASN1_write_bio @ 61da8f80
+  XREF 61dbe581 FROM _PKCS7_dataInit @ 61dbe3a0
+  XREF 61dcf9f8 FROM _PKCS5_pbe_set @ 61dcf830
+  XREF 61dd1c28 FROM _PKCS5_pbe2_set @ 61dd1870
+  XREF 61dd1c93 FROM _PKCS5_pbe2_set @ 61dd1870
+  XREF 61dce067 FROM _PKCS12_setup_mac @ 61dcdf00
+  XREF 61dda714 FROM _SMIME_write_PKCS7 @ 61dda6c0
+  XREF 61ddcb2b FROM int_smime_write_ASN1 @ 61ddcac0
+  XREF 61dea37f FROM _OCSP_request_add1_nonce @ 61dea290
+  XREF 61dea47f FROM _OCSP_basic_add1_nonce @ 61dea390
+  XREF 61dbd0e4 FROM <data/none>
+  XREF 61dbd206 FROM <data/none>
+  XREF 61dcbfb7 FROM ok_write @ 61dcbd90
+FUNCTION _RAND_status @ 61dac100 thunk=false external=false
+  XREF Entry Point FROM <data/none>
+  XREF 61dac54d FROM _RAND_event @ 61dac4b0
+FUNCTION _RAND_poll @ 61dac610 thunk=false external=false
+  XREF Entry Point FROM <data/none>
+  XREF 61dace87 FROM _RAND_screen @ 61dace80
+  XREF 61dc54b3 FROM ssleay_rand_bytes @ 61dc50e0
+  XREF 61dc5630 FROM <data/none>
+FUNCTION _RAND_screen @ 61dace80 thunk=false external=false
+  XREF Entry Point FROM <data/none>
+FUNCTION _RAND_SSLeay @ 61dc4ce0 thunk=false external=false
+  XREF Entry Point FROM <data/none>
+  XREF 61dabfce FROM _RAND_add @ 61dabf30
+  XREF 61dac058 FROM _RAND_bytes @ 61dabfe0
+  XREF 61dac0e8 FROM _RAND_pseudo_bytes @ 61dac070
+  XREF 61dabd47 FROM _RAND_get_rand_method @ 61dabcf0
+  XREF 61dabea1 FROM _RAND_cleanup @ 61dabdf0
+  XREF 61dabf1a FROM _RAND_seed @ 61dabeb0
+  XREF 61dac16d FROM _RAND_status @ 61dac100
+  XREF 61deee28 FROM _ENGINE_load_openssl @ 61deed90
+FUNCTION i2d_ECPrivateKey @ 61e08550 thunk=false external=false
+  XREF Entry Point FROM <data/none>
+  XREF 61dd06dd FROM _EVP_PKEY2PKCS8_broken @ 61dd01f0
+  XREF 61dd075c FROM _EVP_PKEY2PKCS8_broken @ 61dd01f0
+  XREF 61da686d FROM i2d_ECPrivateKey_bio @ 61da6860
+  XREF 61daaf7b FROM _PEM_write_ECPrivateKey @ 61daaf50
+  XREF 61daaf3b FROM _PEM_write_bio_ECPrivateKey @ 61daaf10
+  XREF 61da67ed FROM i2d_ECPrivateKey_fp @ 61da67e0
+  XREF 61dbbc07 FROM i2d_PrivateKey @ 61dbbbe0
+FUNCTION _EC_KEY_new_by_curve_name @ 61e090c0 thunk=false external=false
+  XREF Entry Point FROM <data/none>
+FUNCTION _EC_KEY_generate_key @ 61e09510 thunk=false external=false
+  XREF Entry Point FROM <data/none>
+STRING 61e33000 OpenSSL 0.9.8h 28 May 2008
+  XREF 61d801d4 FROM <data/none>
+  XREF 61d81189 FROM _SSLeay_version @ 61d81180
+STRING 61e332e0 ASN.1 part of OpenSSL 0.9.8h 28 May 2008
+STRING 61e34870 Big Number part of OpenSSL 0.9.8h 28 May 2008
+STRING 61e34b20 CONF part of OpenSSL 0.9.8h 28 May 2008
+STRING 61e34ee0 DSA part of OpenSSL 0.9.8h 28 May 2008
+STRING 61e37f80 EVP part of OpenSSL 0.9.8h 28 May 2008
+STRING 61e38620 MD2 part of OpenSSL 0.9.8h 28 May 2008
+STRING 61e38660 MD5 part of OpenSSL 0.9.8h 28 May 2008
+STRING 61e3c810 PEM part of OpenSSL 0.9.8h 28 May 2008
+STRING 61e3d500 ADVAPI32.DLL
+  XREF 61dac642 FROM _RAND_poll @ 61dac610
+STRING 61e3d58a CryptAcquireContextW
+  XREF 61dac6f1 FROM _RAND_poll @ 61dac610
+STRING 61e3d59f CryptGenRandom
+  XREF 61dac6fc FROM _RAND_poll @ 61dac610
+STRING 61e3d5c4 Intel Hardware Cryptographic Service Provider
+  XREF 61dac74f FROM _RAND_poll @ 61dac610
+STRING 61e3d65c CreateToolhelp32Snapshot
+  XREF 61dac880 FROM _RAND_poll @ 61dac610
+STRING 61e3d740 SHA1 part of OpenSSL 0.9.8h 28 May 2008
+STRING 61e3d780 SHA part of OpenSSL 0.9.8h 28 May 2008
+STRING 61e3d840 TXT_DB part of OpenSSL 0.9.8h 28 May 2008
+STRING 61e3e750 X.509 part of OpenSSL 0.9.8h 28 May 2008
+STRING 61e3f3e0 lhash part of OpenSSL 0.9.8h 28 May 2008
+STRING 61e3f650 Stack part of OpenSSL 0.9.8h 28 May 2008
+STRING 61e3fe80 RIPE-MD160 part of OpenSSL 0.9.8h 28 May 2008
+STRING 61e3ffe0 RAND part of OpenSSL 0.9.8h 28 May 2008
+STRING 61e43d50 PRNG not seeded
+STRING 61e44270 MD4 part of OpenSSL 0.9.8h 28 May 2008
+STRING 61e49390 CONF_def part of OpenSSL 0.9.8h 28 May 2008
+STRING 61e4a650 ECDH part of OpenSSL 0.9.8h 28 May 2008
+STRING 61e4a6c0 SHA-512 part of OpenSSL 0.9.8h 28 May 2008
+STRING 61e51c2f ESHA-256 part of OpenSSL 0.9.8h 28 May 2008
+STRING 61e51fd0 ECDSA part of OpenSSL 0.9.8h 28 May 2008
+STRING 61e6ec04 ADVAPI32.DLL
+
+===== _BN_rand_range @ 61d998e0 =====
+
+void __cdecl _BN_rand_range(undefined4 param_1,int *param_2)
+
+{
+                    /* 0x198e0  2466  BN_rand_range */
+  bn_rand_range(param_2);
+  return;
+}
+
+
+
+===== _EC_KEY_generate_key @ 61e09510 =====
+
+undefined4 __cdecl _EC_KEY_generate_key(int param_1)
+
+{
+  bool bVar1;
+  int *piVar2;
+  int *piVar3;
+  undefined3 extraout_var;
+  int iVar4;
+  int *piVar5;
+  int *piVar6;
+  longlong lVar7;
+  undefined4 local_14;
+  
+                    /* 0x89510  3550  EC_KEY_generate_key */
+  piVar6 = (int *)0x0;
+  piVar5 = (int *)0x0;
+  local_14 = 0;
+  if ((param_1 == 0) || (*(int *)(param_1 + 4) == 0)) {
+    _ERR_put_error(0x10,0xb3,0x43,".\\crypto\\ec\\ec_key.c",0xf2);
+    return 0;
+  }
+  piVar2 = _BN_new();
+  if (piVar2 == (int *)0x0) {
+    return 0;
+  }
+  piVar3 = _BN_CTX_new();
+  if ((piVar3 != (int *)0x0) &&
+     (((piVar6 = *(int **)(param_1 + 0xc), piVar6 != (int *)0x0 ||
+       (piVar6 = _BN_new(), piVar6 != (int *)0x0)) &&
+      (bVar1 = _EC_GROUP_get_order(*(int *)(param_1 + 4),piVar2), CONCAT31(extraout_var,bVar1) != 0)
+      ))) {
+    do {
+      iVar4 = _BN_rand_range(piVar6,piVar2);
+      if (iVar4 == 0) goto LAB_61e09610;
+    } while (piVar6[1] == 0);
+    piVar5 = *(int **)(param_1 + 8);
+    if (piVar5 == (int *)0x0) {
+      lVar7 = _EC_POINT_new(*(int **)(param_1 + 4));
+      piVar5 = (int *)lVar7;
+      if (piVar5 == (int *)0x0) goto LAB_61e09610;
+    }
+    iVar4 = _EC_POINT_mul(*(int **)(param_1 + 4),piVar5,piVar6,0,0,(int)piVar3);
+    if (iVar4 != 0) {
+      *(int **)(param_1 + 0xc) = piVar6;
+      *(int **)(param_1 + 8) = piVar5;
+      local_14 = 1;
+    }
+  }
+LAB_61e09610:
+  if (piVar2 != (int *)0x0) {
+    _BN_free(piVar2);
+  }
+  if ((piVar5 != (int *)0x0) && (*(int *)(param_1 + 8) == 0)) {
+    _EC_POINT_free(piVar5);
+  }
+  if ((piVar6 != (int *)0x0) && (*(int *)(param_1 + 0xc) == 0)) {
+    _BN_free(piVar6);
+  }
+  if (piVar3 != (int *)0x0) {
+    _BN_CTX_free(piVar3);
+  }
+  return local_14;
+}
+
+
+
+===== _BN_rand @ 61d996a0 =====
+
+void __cdecl _BN_rand(undefined4 param_1,int param_2,int param_3,int param_4)
+
+{
+                    /* 0x196a0  156  BN_rand */
+  bnrand(param_2,param_3,param_4);
+  return;
+}
+
+
+
+===== _BN_pseudo_rand_range @ 61d99900 =====
+
+void __cdecl _BN_pseudo_rand_range(undefined4 param_1,int *param_2)
+
+{
+                    /* 0x19900  2523  BN_pseudo_rand_range */
+  bn_rand_range(param_2);
+  return;
+}
+
+
+
+===== _RAND_screen @ 61dace80 =====
+
+void _RAND_screen(void)
+
+{
+  DWORD DVar1;
+  uint uVar2;
+  HDC hdc;
+  HDC hdc_00;
+  int cx;
+  int iVar3;
+  HBITMAP hbit;
+  HGDIOBJ pvVar4;
+  undefined1 *lpvBits;
+  int *piVar5;
+  int y1;
+  char *cb;
+  bool bVar6;
+  bool bVar7;
+  int iVar8;
+  undefined1 local_5c [32];
+  undefined1 local_3c [8];
+  int local_34;
+  int local_30;
+  uint local_2c;
+  
+                    /* 0x2ce80  468  RAND_screen */
+  _RAND_poll();
+  DVar1 = _GetVersion_0();
+  if (-1 < (int)DVar1) {
+    uVar2 = _OPENSSL_isservice();
+    if (uVar2 != 0) {
+      hdc = _CreateDCA_16("DISPLAY",(LPCSTR)0x0,(LPCSTR)0x0,(DEVMODEA *)0x0);
+      hdc_00 = _CreateCompatibleDC_4(hdc);
+      cx = _GetDeviceCaps_8(hdc,8);
+      iVar3 = _GetDeviceCaps_8(hdc,10);
+      hbit = _CreateCompatibleBitmap_12(hdc,cx,0x10);
+      pvVar4 = _SelectObject_8(hdc_00,hbit);
+      _GetObjectA_12(hbit,0x18,local_3c);
+      cb = (char *)(local_30 * local_34 * (local_2c & 0xffff));
+      lpvBits = _CRYPTO_malloc((int)cb,".\\crypto\\rand\\rand_win.c",0x2d5);
+      if (lpvBits != (undefined1 *)0x0) {
+        iVar3 = iVar3 + -0x10;
+        y1 = 0;
+        bVar7 = false;
+        bVar6 = iVar3 == 0;
+        iVar8 = iVar3;
+        while (!bVar6 && bVar7 == iVar8 < 0) {
+          _BitBlt_36(hdc_00,0,0,cx,0x10,hdc,0,y1,0xcc0020);
+          _GetBitmapBits_12(hbit,(LONG)cb,lpvBits);
+          iVar8 = 0;
+          piVar5 = (int *)_EVP_sha1();
+          _EVP_Digest(lpvBits,cb,local_5c,(undefined4 *)0x0,piVar5,iVar8);
+          _RAND_add();
+          y1 = y1 + 0x10;
+          bVar7 = SBORROW4(iVar3,y1);
+          iVar8 = iVar3 - y1;
+          bVar6 = iVar3 == y1;
+        }
+        _CRYPTO_free(lpvBits);
+      }
+      pvVar4 = _SelectObject_8(hdc_00,pvVar4);
+      _DeleteObject_4(pvVar4);
+      _DeleteDC_4(hdc_00);
+      _DeleteDC_4(hdc);
+      return;
+    }
+  }
+  return;
+}
+
+
+
+===== _RAND_poll @ 61dac610 =====
+
+/* WARNING: Removing unreachable block (ram,0x61dace49) */
+
+undefined4 _RAND_poll(void)
+
+{
+  HMODULE pHVar1;
+  HMODULE hModule;
+  HMODULE hModule_00;
+  FARPROC pFVar2;
+  int iVar3;
+  FARPROC pFVar4;
+  FARPROC pFVar5;
+  FARPROC pFVar6;
+  FARPROC pFVar7;
+  FARPROC pFVar8;
+  FARPROC pFVar9;
+  FARPROC pFVar10;
+  FARPROC pFVar11;
+  FARPROC pFVar12;
+  FARPROC pFVar13;
+  FARPROC pFVar14;
+  HANDLE hObject;
+  int iVar15;
+  DWORD DVar16;
+  BOOL BVar17;
+  uint uVar18;
+  code *pcVar19;
+  HANDLE pvVar20;
+  undefined4 uVar21;
+  undefined4 uVar22;
+  HANDLE pvVar23;
+  char *pcVar24;
+  undefined4 uVar25;
+  code *in_stack_fffffa9c;
+  FARPROC in_stack_fffffaa0;
+  uint uStack_55c;
+  code *pcStack_540;
+  code *pcStack_538;
+  code *pcStack_52c;
+  FARPROC local_524;
+  DWORD DStack_518;
+  LARGE_INTEGER LStack_514;
+  DWORD DStack_50c;
+  int iStack_508;
+  undefined4 local_504;
+  undefined4 local_500 [137];
+  undefined4 auStack_2dc [10];
+  undefined4 auStack_2b4 [73];
+  undefined4 uStack_190;
+  undefined4 auStack_184 [9];
+  undefined1 auStack_160 [16];
+  undefined4 uStack_150;
+  HANDLE apvStack_14c [4];
+  char *apcStack_13c [3];
+  undefined1 auStack_130 [20];
+  undefined1 auStack_11c [64];
+  _OSVERSIONINFOA local_dc;
+  _MEMORYSTATUS _Stack_3c;
+  
+                    /* 0x2c610  2423  RAND_poll */
+  local_504 = 0;
+  local_dc.dwOSVersionInfoSize = 0x94;
+  _GetVersionExA_4(&local_dc);
+  pHVar1 = _LoadLibraryA_4("ADVAPI32.DLL");
+  hModule = _LoadLibraryA_4("KERNEL32.DLL");
+  hModule_00 = _LoadLibraryA_4("NETAPI32.DLL");
+  if (hModule_00 != (HMODULE)0x0) {
+    pFVar2 = _GetProcAddress_8(hModule_00,"NetStatisticsGet");
+    local_524 = _GetProcAddress_8(hModule_00,"NetApiBufferFree");
+    if ((pFVar2 != (FARPROC)0x0) && (local_524 != (FARPROC)0x0)) {
+      iVar3 = (*pFVar2)(0,L"LanmanWorkstation",0,0,local_500);
+      if (iVar3 == 0) {
+        uVar22 = 0x40468000;
+        uVar21 = 0;
+        uVar25 = 0xd8;
+        _RAND_add();
+        (*pcStack_538)(LStack_514.s.LowPart,uVar25,uVar21,uVar22);
+      }
+      iVar3 = (*pFVar2)(0,L"LanmanServer",0,0,&LStack_514);
+      if (iVar3 == 0) {
+        in_stack_fffffaa0 = (FARPROC)0x40310000;
+        in_stack_fffffa9c = (code *)0x0;
+        uVar25 = 0x44;
+        _RAND_add();
+        (*local_524)(local_500[0],uVar25);
+      }
+    }
+    if (hModule_00 != (HMODULE)0x0) {
+      _FreeLibrary_4(hModule_00);
+    }
+  }
+  if (pHVar1 != (HMODULE)0x0) {
+    pFVar2 = _GetProcAddress_8(pHVar1,"CryptAcquireContextW");
+    pFVar4 = _GetProcAddress_8(pHVar1,"CryptGenRandom");
+    pFVar5 = _GetProcAddress_8(pHVar1,"CryptReleaseContext");
+    if (((pFVar2 != (FARPROC)0x0) && (pFVar4 != (FARPROC)0x0)) && (pFVar5 != (FARPROC)0x0)) {
+      iVar3 = (*pFVar2)(&local_504,0,0,1,0xf0000000);
+      if (iVar3 != 0) {
+        iVar3 = (*pFVar4)(DStack_518,0x40,auStack_130,iVar3);
+        if (iVar3 != 0) {
+          _RAND_add();
+        }
+        (*pcStack_540)(local_524,0);
+      }
+      iVar3 = (*pFVar2)(&DStack_518,0,L"Intel Hardware Cryptographic Service Provider",0x16,0);
+      if (iVar3 != 0) {
+        in_stack_fffffa9c = (code *)auStack_11c;
+        iVar3 = (*pFVar4)(local_504,0x40);
+        in_stack_fffffaa0 = pFVar2;
+        if (iVar3 != 0) {
+          _RAND_add();
+          in_stack_fffffaa0 = pFVar2;
+        }
+        (*pcStack_52c)(LStack_514.s.HighPart,0);
+      }
+    }
+    if (pHVar1 != (HMODULE)0x0) {
+      _FreeLibrary_4(pHVar1);
+    }
+  }
+  if (local_dc.dwPlatformId == 2) {
+    in_stack_fffffaa0 = (FARPROC)0x61dacc05;
+    uVar18 = _OPENSSL_isservice();
+    if (uVar18 == 0) goto LAB_61dac78e;
+  }
+  else {
+LAB_61dac78e:
+    pHVar1 = _LoadLibraryA_4("USER32.DLL");
+    if (pHVar1 != (HMODULE)0x0) {
+      pFVar2 = _GetProcAddress_8(pHVar1,"GetForegroundWindow");
+      pFVar4 = _GetProcAddress_8(pHVar1,"GetCursorInfo");
+      pcVar24 = "GetQueueStatus";
+      pFVar5 = _GetProcAddress_8(pHVar1,"GetQueueStatus");
+      if (pFVar2 != (FARPROC)0x0) {
+        iStack_508 = (*pFVar2)();
+        in_stack_fffffaa0 = (FARPROC)0x0;
+        in_stack_fffffa9c = (code *)0x0;
+        pcVar24 = (char *)0x4;
+        _RAND_add();
+      }
+      if (((pFVar4 != (FARPROC)0x0) &&
+          ((local_dc.dwPlatformId != 2 || (4 < local_dc.dwMajorVersion)))) &&
+         (pFVar4 != (FARPROC)0x0)) {
+        apcStack_13c[0] = (char *)0x14;
+        iVar3 = (*pFVar4)(apcStack_13c,pcVar24);
+        if (iVar3 != 0) {
+          in_stack_fffffaa0 = (FARPROC)0x40000000;
+          in_stack_fffffa9c = (code *)0x0;
+          pcVar24 = apcStack_13c[0];
+          _RAND_add();
+        }
+      }
+      if (pFVar5 != (FARPROC)0x0) {
+        DStack_50c = (*pFVar5)(0xbf,pcVar24);
+        in_stack_fffffaa0 = (FARPROC)0x3ff00000;
+        in_stack_fffffa9c = (code *)0x0;
+        _RAND_add();
+      }
+      _FreeLibrary_4(pHVar1);
+    }
+  }
+  if (hModule != (HMODULE)0x0) {
+    pFVar2 = _GetProcAddress_8(hModule,"CreateToolhelp32Snapshot");
+    pFVar4 = _GetProcAddress_8(hModule,"CloseToolhelp32Snapshot");
+    pFVar5 = _GetProcAddress_8(hModule,"Heap32First");
+    pFVar6 = _GetProcAddress_8(hModule,"Heap32Next");
+    pFVar7 = _GetProcAddress_8(hModule,"Heap32ListFirst");
+    pFVar8 = _GetProcAddress_8(hModule,"Heap32ListNext");
+    pFVar9 = _GetProcAddress_8(hModule,"Process32First");
+    pFVar10 = _GetProcAddress_8(hModule,"Process32Next");
+    pFVar11 = _GetProcAddress_8(hModule,"Thread32First");
+    pFVar12 = _GetProcAddress_8(hModule,"Thread32Next");
+    pFVar13 = _GetProcAddress_8(hModule,"Module32First");
+    pFVar14 = _GetProcAddress_8(hModule,"Module32Next");
+    if (((((pFVar2 != (FARPROC)0x0) && (pFVar5 != (FARPROC)0x0)) &&
+         ((pFVar6 != (FARPROC)0x0 &&
+          ((((pFVar7 != (FARPROC)0x0 && (pFVar8 != (FARPROC)0x0)) && (pFVar9 != (FARPROC)0x0)) &&
+           ((pFVar10 != (FARPROC)0x0 && (pFVar11 != (FARPROC)0x0)))))))) &&
+        ((pFVar12 != (FARPROC)0x0 && ((pFVar13 != (FARPROC)0x0 && (pFVar14 != (FARPROC)0x0)))))) &&
+       (hObject = (HANDLE)(*pFVar2)(0xf,0), hObject != (HANDLE)0xffffffff)) {
+      apvStack_14c[0] = (HANDLE)0x10;
+      pvVar23 = hObject;
+      iVar3 = (*pFVar7)(hObject,apvStack_14c);
+      if (iVar3 != 0) {
+        do {
+          uVar25 = 0x40080000;
+          _RAND_add();
+          auStack_184[0] = 0x24;
+          pvVar23 = apvStack_14c[0];
+          iVar3 = (*pFVar9)(auStack_184,uStack_150,apvStack_14c[0],uVar25);
+          if (iVar3 != 0) {
+            iVar3 = 0x50;
+            do {
+              uVar22 = 0x40140000;
+              uVar21 = 0;
+              uVar25 = uStack_190;
+              _RAND_add();
+              iVar15 = (*pFVar6)(auStack_184,uVar25,uVar21,uVar22);
+              if (iVar15 == 0) break;
+              iVar3 = iVar3 + -1;
+            } while (0 < iVar3);
+          }
+          iVar3 = (*pFVar13)(pFVar11,auStack_160);
+        } while ((iVar3 != 0) && (DVar16 = _GetTickCount_0(), DVar16 < uStack_55c));
+      }
+      auStack_2b4[0] = 0x128;
+      if (local_524 != (FARPROC)0x0) {
+        _GetTickCount_0();
+      }
+      iVar3 = (*pFVar11)(pFVar8,auStack_2b4);
+      if (iVar3 != 0) {
+        do {
+          uVar21 = 0x40220000;
+          uVar25 = 0;
+          _RAND_add();
+          iVar3 = (*pFVar14)(pFVar10,auStack_2b4,uVar25,uVar21);
+          if (iVar3 == 0) break;
+          pcVar19 = (code *)_GetTickCount_0();
+        } while (pcVar19 < in_stack_fffffa9c);
+      }
+      auStack_2dc[0] = 0x1c;
+      if (pFVar4 != (FARPROC)0x0) {
+        DVar16 = _GetTickCount_0();
+        in_stack_fffffa9c = (code *)(DVar16 + 1000);
+      }
+      iVar3 = (*(code *)0x0)(pFVar10,auStack_2dc);
+      if (iVar3 != 0) {
+        do {
+          uVar21 = 0x40180000;
+          uVar25 = 0;
+          _RAND_add();
+          iVar3 = (*in_stack_fffffaa0)(pFVar12,auStack_2dc,uVar25,uVar21);
+          if (iVar3 == 0) break;
+          pvVar20 = (HANDLE)_GetTickCount_0();
+        } while (pvVar20 < pvVar23);
+      }
+      LStack_514.s.LowPart = 0x224;
+      if (pFVar5 != (FARPROC)0x0) {
+        _GetTickCount_0();
+      }
+      iVar3 = (*in_stack_fffffa9c)(pFVar12,&LStack_514);
+      if (iVar3 != 0) {
+        uVar21 = 0x40220000;
+        uVar25 = 0;
+        _RAND_add();
+        iVar3 = (*pFVar14)(hObject,&LStack_514,uVar25,uVar21);
+        if (iVar3 != 0) {
+          _GetTickCount_0();
+        }
+      }
+      if (pFVar4 == (FARPROC)0x0) {
+        _CloseHandle_4(hObject);
+      }
+      else {
+        (*pFVar4)(hObject);
+      }
+    }
+    _FreeLibrary_4(hModule);
+  }
+  if (have_perfc_5 != 0) {
+    BVar17 = _QueryPerformanceCounter_4(&LStack_514);
+    if (BVar17 == 0) {
+      have_perfc_5 = 0;
+    }
+    else {
+      _RAND_add();
+      if (have_perfc_5 != 0) goto LAB_61dacbb4;
+    }
+  }
+  DStack_518 = _GetTickCount_0();
+  _RAND_add();
+LAB_61dacbb4:
+  _GlobalMemoryStatus_4(&_Stack_3c);
+  _RAND_add();
+  DStack_50c = _GetCurrentProcessId_0();
+  _RAND_add();
+  return 1;
+}
+
+
+
+===== _RAND_SSLeay @ 61dc4ce0 =====
+
+undefined ** _RAND_SSLeay(void)
+
+{
+                    /* 0x44ce0  1113  RAND_SSLeay */
+  return &_rand_ssleay_meth;
+}
+
+
+
+===== _RAND_bytes @ 61dabfe0 =====
+
+undefined4 _RAND_bytes(void)
+
+{
+  undefined4 uVar1;
+  int iVar2;
+  
+                    /* 0x2bfe0  464  RAND_bytes */
+  if (_default_RAND_meth != (undefined **)0x0) goto LAB_61dabff4;
+  iVar2 = _ENGINE_get_default_RAND();
+  if (iVar2 == 0) {
+LAB_61dac058:
+    _default_RAND_meth = _RAND_SSLeay();
+    iVar2 = _funct_ref;
+  }
+  else {
+    _default_RAND_meth = (undefined **)_ENGINE_get_RAND(iVar2);
+    if (_default_RAND_meth == (undefined **)0x0) {
+      _ENGINE_finish(iVar2);
+      goto LAB_61dac058;
+    }
+  }
+  _funct_ref = iVar2;
+  if (_default_RAND_meth == (undefined **)0x0) {
+    return 0xffffffff;
+  }
+LAB_61dabff4:
+  if ((code *)_default_RAND_meth[1] == (code *)0x0) {
+    return 0xffffffff;
+  }
+                    /* WARNING: Could not recover jumptable at 0x61dac01b. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  uVar1 = (*(code *)_default_RAND_meth[1])();
+  return uVar1;
+}
+
+
+
+===== _BN_pseudo_rand @ 61d996d0 =====
+
+void __cdecl _BN_pseudo_rand(undefined4 param_1,int param_2,int param_3,int param_4)
+
+{
+                    /* 0x196d0  2239  BN_pseudo_rand */
+  bnrand(param_2,param_3,param_4);
+  return;
+}
+
+
+
+===== _RAND_add @ 61dabf30 =====
+
+void _RAND_add(void)
+
+{
+  int iVar1;
+  
+                    /* 0x2bf30  2201  RAND_add */
+  if (_default_RAND_meth != (undefined **)0x0) goto LAB_61dabf54;
+  iVar1 = _ENGINE_get_default_RAND();
+  if (iVar1 == 0) {
+LAB_61dabfce:
+    _default_RAND_meth = _RAND_SSLeay();
+    iVar1 = _funct_ref;
+  }
+  else {
+    _default_RAND_meth = (undefined **)_ENGINE_get_RAND(iVar1);
+    if (_default_RAND_meth == (undefined **)0x0) {
+      _ENGINE_finish(iVar1);
+      goto LAB_61dabfce;
+    }
+  }
+  _funct_ref = iVar1;
+  if (_default_RAND_meth == (undefined **)0x0) {
+    return;
+  }
+LAB_61dabf54:
+  if ((code *)_default_RAND_meth[3] != (code *)0x0) {
+                    /* WARNING: Could not recover jumptable at 0x61dabf8b. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+    (*(code *)_default_RAND_meth[3])();
+    return;
+  }
+  return;
+}
+
+
+
+===== _SSLeay_version @ 61d81180 =====
+
+char * __cdecl _SSLeay_version(int param_1)
+
+{
+  char *pcVar1;
+  
+                    /* 0x1180  2  SSLeay_version */
+  if (param_1 == 0) {
+    return "OpenSSL 0.9.8h 28 May 2008";
+  }
+  if (param_1 == 3) {
+    _BIO_snprintf(&buf_0,0x24,(byte *)"built on: %s");
+    pcVar1 = &buf_0;
+  }
+  else if (param_1 == 2) {
+    _BIO_snprintf(&buf_1,0x1ea,(byte *)"compiler: %s");
+    pcVar1 = &buf_1;
+  }
+  else {
+    if (param_1 != 4) {
+      if (param_1 == 5) {
+        return "OPENSSLDIR: \"/usr/local/ssl\"";
+      }
+      return "not available";
+    }
+    _BIO_snprintf(&buf_2,0x13,(byte *)"platform: %s");
+    pcVar1 = &buf_2;
+  }
+  return pcVar1;
+}
+
+
+
+===== _RAND_get_rand_method @ 61dabcf0 =====
+
+void _RAND_get_rand_method(void)
+
+{
+  int iVar1;
+  
+                    /* 0x2bcf0  1137  RAND_get_rand_method */
+  if (_default_RAND_meth != (undefined **)0x0) {
+    return;
+  }
+  iVar1 = _ENGINE_get_default_RAND();
+  if (iVar1 != 0) {
+    _default_RAND_meth = (undefined **)_ENGINE_get_RAND(iVar1);
+    if (_default_RAND_meth != (undefined **)0x0) {
+      _funct_ref = iVar1;
+      return;
+    }
+    _ENGINE_finish(iVar1);
+  }
+  _default_RAND_meth = _RAND_SSLeay();
+  return;
+}
+
+
+
+===== i2d_ECPrivateKey @ 61e08550 =====
+
+/* i2d_ECPrivateKey */
+
+size_t __cdecl i2d_ECPrivateKey(undefined4 *param_1,uint *param_2)
+
+{
+  bool bVar1;
+  undefined4 *puVar2;
+  int iVar3;
+  char *pcVar4;
+  undefined4 *puVar5;
+  uint uVar6;
+  char *pcVar7;
+  int *piVar8;
+  int iVar9;
+  undefined8 uVar10;
+  uint uVar11;
+  undefined4 uVar12;
+  size_t local_14;
+  
+                    /* 0x88550  3357  i2d_ECPrivateKey */
+  local_14 = 0;
+  bVar1 = false;
+  if (((param_1 == (undefined4 *)0x0) || (param_1[1] == 0)) || (param_1[3] == 0)) {
+    uVar12 = 0x4c4;
+    uVar11 = 0x43;
+LAB_61e08585:
+    _ERR_put_error(0x10,0xc0,uVar11,".\\crypto\\ec\\ec_asn1.c",uVar12);
+    return 0;
+  }
+  puVar2 = (undefined4 *)_ASN1_item_new();
+  if (puVar2 == (undefined4 *)0x0) {
+    uVar12 = 0x4cb;
+    uVar11 = 0x41;
+    goto LAB_61e08585;
+  }
+  piVar8 = (int *)param_1[3];
+  *puVar2 = *param_1;
+  iVar3 = _BN_num_bits(piVar8);
+  iVar9 = iVar3 + 7;
+  if (iVar9 < 0) {
+    iVar9 = iVar3 + 0xe;
+  }
+  uVar11 = iVar9 >> 3;
+  pcVar4 = _CRYPTO_malloc(uVar11,".\\crypto\\ec\\ec_asn1.c",0x4d2);
+  if (pcVar4 == (char *)0x0) {
+    _ERR_put_error(0x10,0xc0,0x41,".\\crypto\\ec\\ec_asn1.c",0x4d6);
+    goto LAB_61e08726;
+  }
+  uVar10 = _BN_bn2bin((int *)param_1[3],pcVar4);
+  pcVar7 = pcVar4;
+  if ((int)uVar10 == 0) {
+    uVar12 = 0x4dc;
+    uVar11 = 3;
+LAB_61e0877d:
+    _ERR_put_error(0x10,0xc0,uVar11,".\\crypto\\ec\\ec_asn1.c",uVar12);
+  }
+  else {
+    iVar9 = _ASN1_STRING_set((size_t *)puVar2[1],pcVar4,uVar11);
+    if (iVar9 == 0) {
+      uVar12 = 0x4e2;
+LAB_61e087b2:
+      uVar11 = 0xd;
+      pcVar7 = pcVar4;
+      goto LAB_61e0877d;
+    }
+    uVar6 = param_1[4];
+    if ((uVar6 & 1) == 0) {
+      piVar8 = ec_asn1_group2pkparameters();
+      puVar2[2] = piVar8;
+      if (piVar8 != (int *)0x0) {
+        uVar6 = param_1[4];
+        goto LAB_61e0863b;
+      }
+      uVar12 = 0x4eb;
+LAB_61e087f7:
+      uVar11 = 0x10;
+      pcVar7 = pcVar4;
+      goto LAB_61e0877d;
+    }
+LAB_61e0863b:
+    if ((uVar6 & 2) == 0) {
+      puVar5 = _ASN1_STRING_type_new(3);
+      puVar2[3] = puVar5;
+      if (puVar5 == (undefined4 *)0x0) {
+        uVar12 = 0x4f6;
+      }
+      else {
+        uVar6 = _EC_POINT_point2oct((int *)param_1[1],(int *)param_1[2]);
+        if ((uVar6 <= uVar11) ||
+           (pcVar7 = _CRYPTO_realloc((int)pcVar4,uVar6,".\\crypto\\ec\\ec_asn1.c",0x4ff),
+           uVar11 = uVar6, pcVar7 != (char *)0x0)) {
+          iVar9 = _EC_POINT_point2oct((int *)param_1[1],(int *)param_1[2]);
+          pcVar4 = pcVar7;
+          if (iVar9 == 0) {
+            uVar12 = 0x50c;
+            goto LAB_61e087f7;
+          }
+          *(uint *)(puVar2[3] + 0xc) = *(uint *)(puVar2[3] + 0xc) & 0xfffffff0 | 8;
+          iVar9 = _ASN1_STRING_set((size_t *)puVar2[3],pcVar7,uVar11);
+          if (iVar9 == 0) {
+            uVar12 = 0x515;
+            goto LAB_61e087b2;
+          }
+          goto LAB_61e086ee;
+        }
+        uVar12 = 0x502;
+      }
+      uVar11 = 0x41;
+      pcVar7 = pcVar4;
+      goto LAB_61e0877d;
+    }
+LAB_61e086ee:
+    local_14 = _ASN1_item_i2d((int)puVar2,param_2,&local_it_0);
+    if (local_14 == 0) {
+      uVar12 = 0x51c;
+      pcVar4 = pcVar7;
+      goto LAB_61e087f7;
+    }
+    bVar1 = true;
+  }
+  if (pcVar7 != (char *)0x0) {
+    _CRYPTO_free(pcVar7);
+  }
+LAB_61e08726:
+  if (puVar2 != (undefined4 *)0x0) {
+    _ASN1_item_free();
+  }
+  if (!bVar1) {
+    return 0;
+  }
+  return local_14;
+}
+
+
+
+===== _EC_KEY_new_by_curve_name @ 61e090c0 =====
+
+char * __cdecl _EC_KEY_new_by_curve_name(int param_1)
+
+{
+  char *pcVar1;
+  int *piVar2;
+  int iVar3;
+  
+                    /* 0x890c0  3353  EC_KEY_new_by_curve_name */
+  pcVar1 = _CRYPTO_malloc(0x20,".\\crypto\\ec\\ec_key.c",0x49);
+  if (pcVar1 == (char *)0x0) {
+    _ERR_put_error(0x10,0xb6,0x41,".\\crypto\\ec\\ec_key.c",0x4c);
+  }
+  else {
+    pcVar1[0] = '\x01';
+    pcVar1[1] = '\0';
+    pcVar1[2] = '\0';
+    pcVar1[3] = '\0';
+    pcVar1[0x10] = '\0';
+    pcVar1[0x11] = '\0';
+    pcVar1[0x12] = '\0';
+    pcVar1[0x13] = '\0';
+    pcVar1[0x18] = '\x01';
+    pcVar1[0x19] = '\0';
+    pcVar1[0x1a] = '\0';
+    pcVar1[0x1b] = '\0';
+    pcVar1[4] = '\0';
+    pcVar1[5] = '\0';
+    pcVar1[6] = '\0';
+    pcVar1[7] = '\0';
+    pcVar1[8] = '\0';
+    pcVar1[9] = '\0';
+    pcVar1[10] = '\0';
+    pcVar1[0xb] = '\0';
+    pcVar1[0xc] = '\0';
+    pcVar1[0xd] = '\0';
+    pcVar1[0xe] = '\0';
+    pcVar1[0xf] = '\0';
+    pcVar1[0x14] = '\x04';
+    pcVar1[0x15] = '\0';
+    pcVar1[0x16] = '\0';
+    pcVar1[0x17] = '\0';
+    pcVar1[0x1c] = '\0';
+    pcVar1[0x1d] = '\0';
+    pcVar1[0x1e] = '\0';
+    pcVar1[0x1f] = '\0';
+    piVar2 = _EC_GROUP_new_by_curve_name(param_1);
+    *(int **)(pcVar1 + 4) = piVar2;
+    if (piVar2 != (int *)0x0) {
+      return pcVar1;
+    }
+    iVar3 = _CRYPTO_add_lock((int *)(pcVar1 + 0x18),-1,0x21,".\\crypto\\ec\\ec_key.c",0x6f);
+    if (iVar3 < 1) {
+      if (*(int **)(pcVar1 + 4) != (int *)0x0) {
+        _EC_GROUP_free(*(int **)(pcVar1 + 4));
+      }
+      if (*(int **)(pcVar1 + 8) != (int *)0x0) {
+        _EC_POINT_free(*(int **)(pcVar1 + 8));
+      }
+      if (*(char **)(pcVar1 + 0xc) != (char *)0x0) {
+        _BN_clear_free(*(char **)(pcVar1 + 0xc));
+      }
+      _EC_EX_DATA_free_all_data((undefined4 *)(pcVar1 + 0x1c));
+      _OPENSSL_cleanse(pcVar1,0x20);
+      _CRYPTO_free(pcVar1);
+    }
+  }
+  return (char *)0x0;
+}
+
+
+
+===== _RAND_pseudo_bytes @ 61dac070 =====
+
+undefined4 _RAND_pseudo_bytes(void)
+
+{
+  undefined4 uVar1;
+  int iVar2;
+  
+                    /* 0x2c070  2206  RAND_pseudo_bytes */
+  if (_default_RAND_meth != (undefined **)0x0) goto LAB_61dac084;
+  iVar2 = _ENGINE_get_default_RAND();
+  if (iVar2 == 0) {
+LAB_61dac0e8:
+    _default_RAND_meth = _RAND_SSLeay();
+    iVar2 = _funct_ref;
+  }
+  else {
+    _default_RAND_meth = (undefined **)_ENGINE_get_RAND(iVar2);
+    if (_default_RAND_meth == (undefined **)0x0) {
+      _ENGINE_finish(iVar2);
+      goto LAB_61dac0e8;
+    }
+  }
+  _funct_ref = iVar2;
+  if (_default_RAND_meth == (undefined **)0x0) {
+    return 0xffffffff;
+  }
+LAB_61dac084:
+  if ((code *)_default_RAND_meth[4] == (code *)0x0) {
+    return 0xffffffff;
+  }
+                    /* WARNING: Could not recover jumptable at 0x61dac0ab. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  uVar1 = (*(code *)_default_RAND_meth[4])();
+  return uVar1;
+}
+
+
+
+===== _RAND_seed @ 61dabeb0 =====
+
+void _RAND_seed(void)
+
+{
+  int iVar1;
+  
+                    /* 0x2beb0  469  RAND_seed */
+  if (_default_RAND_meth != (undefined **)0x0) goto LAB_61dabec4;
+  iVar1 = _ENGINE_get_default_RAND();
+  if (iVar1 == 0) {
+LAB_61dabf1a:
+    _default_RAND_meth = _RAND_SSLeay();
+    iVar1 = _funct_ref;
+  }
+  else {
+    _default_RAND_meth = (undefined **)_ENGINE_get_RAND(iVar1);
+    if (_default_RAND_meth == (undefined **)0x0) {
+      _ENGINE_finish(iVar1);
+      goto LAB_61dabf1a;
+    }
+  }
+  _funct_ref = iVar1;
+  if (_default_RAND_meth == (undefined **)0x0) {
+    return;
+  }
+LAB_61dabec4:
+  if ((code *)*_default_RAND_meth != (code *)0x0) {
+                    /* WARNING: Could not recover jumptable at 0x61dabedb. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+    (*(code *)*_default_RAND_meth)();
+    return;
+  }
+  return;
+}
+
+
+
+===== _RAND_status @ 61dac100 =====
+
+undefined4 _RAND_status(void)
+
+{
+  undefined4 uVar1;
+  int iVar2;
+  
+                    /* 0x2c100  2254  RAND_status */
+  if (_default_RAND_meth != (undefined **)0x0) goto LAB_61dac10d;
+  iVar2 = _ENGINE_get_default_RAND();
+  if (iVar2 == 0) {
+LAB_61dac16d:
+    _default_RAND_meth = _RAND_SSLeay();
+    iVar2 = _funct_ref;
+  }
+  else {
+    _default_RAND_meth = (undefined **)_ENGINE_get_RAND(iVar2);
+    if (_default_RAND_meth == (undefined **)0x0) {
+      _ENGINE_finish(iVar2);
+      goto LAB_61dac16d;
+    }
+  }
+  _funct_ref = iVar2;
+  if (_default_RAND_meth == (undefined **)0x0) {
+    return 0;
+  }
+LAB_61dac10d:
+  if ((code *)_default_RAND_meth[5] != (code *)0x0) {
+                    /* WARNING: Could not recover jumptable at 0x61dac124. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+    uVar1 = (*(code *)_default_RAND_meth[5])();
+    return uVar1;
+  }
+  return 0;
+}
+
+

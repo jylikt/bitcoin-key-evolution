@@ -1,0 +1,185 @@
+PasteBoard: Error creating pasteboard: com.apple.pasteboard.clipboard [-4960]
+PasteBoard: Error creating pasteboard: com.apple.pasteboard.find [-4960]
+2026-11-20T09:10:14Z Bitcoin Core version v32.1.0 (release build)
+2026-11-20T09:10:14Z parameter interaction: -listen=0 -> setting -listenonion=0
+2026-11-20T09:10:14Z parameter interaction: -listen=0 -> setting -i2pacceptincoming=0
+2026-11-20T09:10:14Z Qt 6.8.4 (static), plugin=cocoa
+2026-11-20T09:10:14Z Static plugins:
+2026-11-20T09:10:14Z  QMacStylePlugin, version 395264
+2026-11-20T09:10:14Z  QCocoaIntegrationPlugin, version 395264
+2026-11-20T09:10:14Z  QMinimalIntegrationPlugin, version 395264
+2026-11-20T09:10:14Z Style: macos / QMacStyle
+2026-11-20T09:10:14Z System: macOS 27.0, arm64-little_endian-lp64
+2026-11-20T09:10:14Z Screen: Built-in Retina Display 1470x956, pixel ratio=2.0
+2026-11-20T09:10:14Z Screen: 2790 1920x1080, pixel ratio=1.0
+2026-11-20T09:10:14Z GUI: QFSFileEngine::open: No file name specified
+2026-11-20T09:10:14Z GUI: QFSFileEngine::open: No file name specified
+2026-11-20T09:10:14Z GUI: QFSFileEngine::open: No file name specified
+2026-11-20T09:10:14Z GUI: QFSFileEngine::open: No file name specified
+2026-11-20T09:10:14Z GUI: QFSFileEngine::open: No file name specified
+2026-11-20T09:10:14Z Log output may contain privacy-sensitive information. Be cautious when sharing logs.
+2026-11-20T09:10:14Z Using the 'arm_shani(1way;2way)' SHA256 implementation
+2026-11-20T09:10:14Z [rand] Feeding 22940 bytes of environment data into RNG
+2026-11-20T09:10:14Z Default data directory $HOME/Library/Application Support/Bitcoin
+2026-11-20T09:10:14Z Using data directory $LAB_DIR/regtest
+2026-11-20T09:10:14Z Config file: $LAB_DIR/bitcoin.conf (not found, skipping)
+2026-11-20T09:10:14Z Command-line arg: connect="0"
+2026-11-20T09:10:14Z Command-line arg: datadir="$LAB_DIR"
+2026-11-20T09:10:14Z Command-line arg: debug="rand"
+2026-11-20T09:10:14Z Command-line arg: discover="0"
+2026-11-20T09:10:14Z Command-line arg: dnsseed="0"
+2026-11-20T09:10:14Z Command-line arg: keypool="4"
+2026-11-20T09:10:14Z Command-line arg: listen="0"
+2026-11-20T09:10:14Z Command-line arg: natpmp="0"
+2026-11-20T09:10:14Z Command-line arg: port="28444"
+2026-11-20T09:10:14Z Command-line arg: printtoconsole="1"
+2026-11-20T09:10:14Z Command-line arg: regtest="1"
+2026-11-20T09:10:14Z Command-line arg: rpcpassword=****
+2026-11-20T09:10:14Z Command-line arg: rpcport="28443"
+2026-11-20T09:10:14Z Command-line arg: rpcuser=****
+2026-11-20T09:10:14Z Command-line arg: server="1"
+2026-11-20T09:10:14Z Command-line arg: splash="0"
+2026-11-20T09:10:14Z Using at most 200 automatic connections (1024 file descriptors available)
+2026-11-20T09:10:14Z scheduler thread start
+2026-11-20T09:10:14Z Binding RPC on address ::1 port 28443
+2026-11-20T09:10:14Z Binding RPC on address 127.0.0.1 port 28443
+2026-11-20T09:10:14Z Using rpcuser/rpcpassword authentication.
+2026-11-20T09:10:14Z [warning] The use of rpcuser/rpcpassword is less secure, because credentials are configured in plain text. It is recommended that locally-run instances switch to cookie-based auth, or otherwise to use hashed rpcauth credentials. See share/rpcauth in the source directory for more information.
+2026-11-20T09:10:14Z Starting HTTP server with 16 worker threads
+2026-11-20T09:10:14Z http.00 thread start
+2026-11-20T09:10:14Z http.01 thread start
+2026-11-20T09:10:14Z http.03 thread start
+2026-11-20T09:10:14Z http.02 thread start
+2026-11-20T09:10:14Z http.11 thread start
+2026-11-20T09:10:14Z http.08 thread start
+2026-11-20T09:10:14Z http.09 thread start
+2026-11-20T09:10:14Z http.05 thread start
+2026-11-20T09:10:14Z http.07 thread start
+2026-11-20T09:10:14Z http.13 thread start
+2026-11-20T09:10:14Z http.04 thread start
+2026-11-20T09:10:14Z http.10 thread start
+2026-11-20T09:10:14Z http thread start
+2026-11-20T09:10:14Z http.12 thread start
+2026-11-20T09:10:14Z http.15 thread start
+2026-11-20T09:10:14Z Using wallet directory $LAB_DIR/regtest/wallets
+2026-11-20T09:10:14Z http.06 thread start
+2026-11-20T09:10:14Z http.14 thread start
+2026-11-20T09:10:14Z Using SQLite Version 3.50.4
+2026-11-20T09:10:14Z init message: Verifying wallet(s)…
+2026-11-20T09:10:14Z Using /16 prefix for IP bucketing
+2026-11-20T09:10:14Z init message: Loading P2P addresses…
+2026-11-20T09:10:14Z Loaded 0 addresses from peers.dat 0ms
+2026-11-20T09:10:14Z init message: Loading banlist…
+2026-11-20T09:10:14Z SetNetworkActive: true
+2026-11-20T09:10:14Z Cache configuration:
+2026-11-20T09:10:14Z * Using 2.0 MiB for block index database
+2026-11-20T09:10:14Z * Using 8.0 MiB for chain state database
+2026-11-20T09:10:14Z * Using 1014.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2026-11-20T09:10:14Z Script verification uses 9 additional threads
+2026-11-20T09:10:14Z Using obfuscation key for blocksdir *.dat files ($LAB_DIR/regtest/blocks): '6dc01d19d3b88341'
+2026-11-20T09:10:14Z Opening LevelDB in $LAB_DIR/regtest/blocks/index
+2026-11-20T09:10:14Z Opened LevelDB successfully
+2026-11-20T09:10:14Z Using obfuscation key for $LAB_DIR/regtest/blocks/index: 0000000000000000
+2026-11-20T09:10:14Z Using 16 MiB out of 16 MiB requested for signature cache, able to store 524288 elements
+2026-11-20T09:10:14Z Using 16 MiB out of 16 MiB requested for script execution cache, able to store 524288 elements
+2026-11-20T09:10:14Z init message: Loading block index…
+2026-11-20T09:10:14Z Validating signatures for all blocks.
+2026-11-20T09:10:14Z Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2026-11-20T09:10:14Z Loading block index db: last block file = 0
+2026-11-20T09:10:14Z Loading block index db: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2026-11-20T09:10:14Z Checking all blk files are present...
+2026-11-20T09:10:14Z Initializing chainstate Chainstate [ibd] @ height -1 (null)
+2026-11-20T09:10:14Z Opening LevelDB in $LAB_DIR/regtest/chainstate
+2026-11-20T09:10:14Z Opened LevelDB successfully
+2026-11-20T09:10:14Z Using obfuscation key for $LAB_DIR/regtest/chainstate: 68bee5ae2bebb9c0
+2026-11-20T09:10:14Z prevout.00 thread start
+2026-11-20T09:10:14Z prevout.01 thread start
+2026-11-20T09:10:14Z prevout.06 thread start
+2026-11-20T09:10:14Z prevout.04 thread start
+2026-11-20T09:10:14Z prevout.03 thread start
+2026-11-20T09:10:14Z Block input prevout fetching uses 8 additional threads
+2026-11-20T09:10:14Z prevout.05 thread start
+2026-11-20T09:10:14Z prevout.07 thread start
+2026-11-20T09:10:14Z prevout.02 thread start
+2026-11-20T09:10:14Z init message: Verifying blocks…
+2026-11-20T09:10:14Z Block index and chainstate loaded
+2026-11-20T09:10:14Z $LAB_DIR/regtest/fees/block_policy_estimates.dat is not found. Continue anyway.
+2026-11-20T09:10:14Z Setting NODE_NETWORK in non-prune mode
+2026-11-20T09:10:14Z initload thread start
+2026-11-20T09:10:14Z UpdateTip: new best=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 version=0x00000001 log2_work=1.000000 tx=1 date='2011-02-02T23:16:42Z' progress=0.000002 cache=0.3MiB(0txo)
+2026-11-20T09:10:14Z block tree size = 1
+2026-11-20T09:10:14Z nBestHeight = 0
+2026-11-20T09:10:14Z Failed to open mempool file. Continuing anyway.
+2026-11-20T09:10:14Z init message: Starting network threads…
+2026-11-20T09:10:14Z DNS seeding disabled
+2026-11-20T09:10:14Z net thread start
+2026-11-20T09:10:14Z init message: Done loading
+2026-11-20T09:10:14Z addcon thread start
+2026-11-20T09:10:14Z msghand thread start
+2026-11-20T09:10:14Z initload thread exit
+2026-11-20 12:10:14.860 Bitcoin-Qt[67238:208868] +[NSXPCSharedListener endpointForReply:withListenerName:replyErrorCode:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection interrupted
+2026-11-20T09:10:14Z GUI: Platform customization: "macosx"
+2026-11-20 12:10:15.154 Bitcoin-Qt[67238:208939] +[NSXPCSharedListener endpointForReply:withListenerName:replyErrorCode:]: an error occurred while attempting to obtain endpoint for listener 'com.apple.view-bridge': Connection interrupted
+2026-11-20T09:10:15Z init message: Creating wallet…
+2026-11-20T09:10:15Z [unencrypted-lab] Setting spkMan to active: id = 5f3cca6c41b9ea31536b91fcecfc27e8f4f31aca7a2ae6597f2d12308d038f52, type = legacy, internal = false
+2026-11-20T09:10:15Z [unencrypted-lab] Setting spkMan to active: id = 3699a025d1c4765242f1ee6421a9c448b77aaa8f0699c960d47224a30183be79, type = p2sh-segwit, internal = false
+2026-11-20T09:10:15Z [unencrypted-lab] Setting spkMan to active: id = 701b48ca3a3258fbf444961f5e3aaa5ff1ca1155adbec1bdfb6596a8bd1f9a14, type = bech32, internal = false
+2026-11-20T09:10:15Z [unencrypted-lab] Setting spkMan to active: id = ba33721253991f80d5b2c060d16364ce6fa7a869261957e96c95b7fcdeb212c1, type = bech32m, internal = false
+2026-11-20T09:10:15Z [unencrypted-lab] Setting spkMan to active: id = 0356176acc0ff84d820cb33374e8e20303cb071eec5efe5ee6e1f994d3c45e6e, type = legacy, internal = true
+2026-11-20T09:10:15Z [unencrypted-lab] Setting spkMan to active: id = 9163075fb5f9f4ea2d36aae4ecc8d95e316d0986438f13e8122d7202d23e12ad, type = p2sh-segwit, internal = true
+2026-11-20T09:10:15Z [unencrypted-lab] Setting spkMan to active: id = 9f6c1a32740552c96df1b867d0e6bcc3d6420f4b61de97f2fe2c9b9cf633a82c, type = bech32, internal = true
+2026-11-20T09:10:15Z [unencrypted-lab] Setting spkMan to active: id = dea3b744b6f639def88730a22c5b6a5157da4bd2b52afb543f5422e44d7b1b4d, type = bech32m, internal = true
+2026-11-20T09:10:15Z [unencrypted-lab] Wallet completed creation in              88ms
+2026-11-20T09:10:15Z [unencrypted-lab] setKeyPool.size() = 32
+2026-11-20T09:10:15Z [unencrypted-lab] mapWallet.size() = 0
+2026-11-20T09:10:15Z [unencrypted-lab] m_address_book.size() = 0
+2026-11-20T09:10:15Z init message: Creating wallet…
+2026-11-20T09:10:15Z [encrypted-lab] Wallet completed creation in              63ms
+2026-11-20T09:10:16Z [encrypted-lab] Encrypting Wallet with an nDeriveIterations of 311951
+2026-11-20T09:10:16Z [encrypted-lab] Setting spkMan to active: id = bb2c776f4bd6dd7301cca05f4241de3038901d33ab9c69ad61dabdd7afac435a, type = legacy, internal = false
+2026-11-20T09:10:16Z [encrypted-lab] Setting spkMan to active: id = 26358fc8839c5db6bbb3539af917dc413f175e94d617c6b747749c92cd7e47f0, type = p2sh-segwit, internal = false
+2026-11-20T09:10:16Z [encrypted-lab] Setting spkMan to active: id = 4e9c70423411be5014cd2b09402421a32d08064f9c8a8bccefc75457dede0149, type = bech32, internal = false
+2026-11-20T09:10:16Z [encrypted-lab] Setting spkMan to active: id = 665bb7bb8355c87c8a4ab528a7ae9e24182f518597e105c0349e6c1dfb3a46f8, type = bech32m, internal = false
+2026-11-20T09:10:16Z [encrypted-lab] Setting spkMan to active: id = 907a65ed1b47f2cdb9fe9265d93d775a603ca629647e40de389400bcfa9d9e6f, type = legacy, internal = true
+2026-11-20T09:10:16Z [encrypted-lab] Setting spkMan to active: id = 958040e76c50a9a4b2af1665678d9b95aa5249d168df38f35dfccdf37871a94e, type = p2sh-segwit, internal = true
+2026-11-20T09:10:16Z [encrypted-lab] Setting spkMan to active: id = c23189330b7f49d23a2516c852a9c4f8f5ba61f6c5dfdec410b25772c8b0d1ba, type = bech32, internal = true
+2026-11-20T09:10:16Z [encrypted-lab] Setting spkMan to active: id = 87f1e219a8b8a704b845f1210a3aca6b52444c77c489048be990f6bfec10b39b, type = bech32m, internal = true
+2026-11-20T09:10:16Z [encrypted-lab] setKeyPool.size() = 32
+2026-11-20T09:10:16Z [encrypted-lab] mapWallet.size() = 0
+2026-11-20T09:10:16Z [encrypted-lab] m_address_book.size() = 0
+2026-11-20T09:10:16Z http.09 thread exit
+2026-11-20T09:10:16Z http.04 thread exit
+2026-11-20T09:10:16Z http.08 thread exit
+2026-11-20T09:10:16Z http.12 thread exit
+2026-11-20T09:10:16Z http.15 thread exit
+2026-11-20T09:10:16Z http.00 thread exit
+2026-11-20T09:10:16Z http.01 thread exit
+2026-11-20T09:10:16Z http.03 thread exit
+2026-11-20T09:10:16Z net thread exit
+2026-11-20T09:10:16Z http.07 thread exit
+2026-11-20T09:10:16Z http.13 thread exit
+2026-11-20T09:10:16Z http.14 thread exit
+2026-11-20T09:10:16Z http.11 thread exit
+2026-11-20T09:10:16Z http.05 thread exit
+2026-11-20T09:10:16Z http.06 thread exit
+2026-11-20T09:10:16Z addcon thread exit
+2026-11-20T09:10:16Z http.02 thread exit
+2026-11-20T09:10:16Z http.10 thread exit
+2026-11-20T09:10:16Z Shutdown in progress...
+2026-11-20T09:10:16Z http thread exit
+2026-11-20T09:10:16Z msghand thread exit
+2026-11-20T09:10:16Z [encrypted-lab] Releasing wallet encrypted-lab..
+2026-11-20T09:10:16Z [unencrypted-lab] Releasing wallet unencrypted-lab..
+2026-11-20T09:10:16Z scheduler thread exit
+2026-11-20T09:10:16Z Writing 0 mempool transactions to file...
+2026-11-20T09:10:16Z Writing 0 unbroadcast transactions to file.
+2026-11-20T09:10:16Z Dumped mempool: 0.000s to copy, 0.007s to dump, 27 bytes dumped to file
+2026-11-20T09:10:16Z prevout.00 thread exit
+2026-11-20T09:10:16Z prevout.06 thread exit
+2026-11-20T09:10:16Z prevout.01 thread exit
+2026-11-20T09:10:16Z prevout.04 thread exit
+2026-11-20T09:10:16Z prevout.03 thread exit
+2026-11-20T09:10:16Z prevout.05 thread exit
+2026-11-20T09:10:16Z prevout.07 thread exit
+2026-11-20T09:10:16Z prevout.02 thread exit
+2026-11-20T09:10:16Z Shutdown done

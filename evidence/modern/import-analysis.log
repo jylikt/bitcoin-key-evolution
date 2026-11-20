@@ -1,0 +1,195 @@
+2026-11-20 12:02:29 INFO  (LoggingInitialization) Using log config file: jar:file:$HOME/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-11-20 12:02:29 INFO  (LoggingInitialization) Using log file: $AUDIT_DIR/ghidra/import-analysis.log  
+2026-11-20 12:02:29 DEBUG (GhidraObjectInputFilter) Including serial input filter: FileSystem/data/client.rmi.serial.filter  
+2026-11-20 12:02:29 INFO  (Preferences) Loading user preferences: $HOME/Library/ghidra/ghidra_12.1.4_PUBLIC/preferences  
+2026-11-20 12:02:29 INFO  (ClassSearcher) Searching for classes...  
+2026-11-20 12:02:30 INFO  (ClassSearcher) Class search complete (474 ms)  
+2026-11-20 12:02:30 INFO  (DefaultSSLContextInitializer) Initializing SSL Context  
+2026-11-20 12:02:30 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-11-20 12:02:30 INFO  (SecureRandomFactory) Random Number Generator initialization complete: NativePRNGNonBlocking  
+2026-11-20 12:02:30 INFO  (DefaultTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-11-20 12:02:30 INFO  (AnalyzeHeadless) Headless startup complete (1225 ms)  
+2026-11-20 12:02:30 INFO  (ClassSearcher) Class searcher loaded 59 extension points (20 false positives)  
+2026-11-20 12:02:30 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    $HOME/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/BytePatterns/ghidra_scripts
+    $HOME/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger/ghidra_scripts
+    $HOME/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/SystemEmulation/ghidra_scripts
+    $HOME/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    $HOME/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/FileFormats/ghidra_scripts
+    $HOME/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/GnuDemangler/ghidra_scripts
+    $HOME/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Processors/PIC/ghidra_scripts
+    $HOME/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/PDB/ghidra_scripts
+    $HOME/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    $HOME/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/PyGhidra/ghidra_scripts
+    $HOME/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    $HOME/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/Decompiler/ghidra_scripts
+    $HOME/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Processors/Atmel/ghidra_scripts
+    $HOME/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Processors/DATA/ghidra_scripts
+    $HOME/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/FunctionID/ghidra_scripts
+    $HOME/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/ghidra_scripts
+    $HOME/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Processors/JVM/ghidra_scripts
+    $HOME/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/BSim/ghidra_scripts
+    $HOME/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/VersionTracking/ghidra_scripts
+    $HOME/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    $HOME/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Processors/8051/ghidra_scripts
+    $HOME/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/WildcardAssembler/ghidra_scripts  
+2026-11-20 12:02:30 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-11-20 12:02:30 INFO  (HeadlessAnalyzer) Creating project: $AUDIT_DIR/ghidra/bitcoin-qt-32.1  
+2026-11-20 12:02:30 INFO  (DefaultProject) Creating project: $AUDIT_DIR/ghidra/bitcoin-qt-32.1  
+2026-11-20 12:02:30 INFO  (HeadlessAnalyzer) REPORT: Processing input files:   
+2026-11-20 12:02:30 INFO  (HeadlessAnalyzer)      project: $AUDIT_DIR/ghidra/bitcoin-qt-32.1  
+2026-11-20 12:02:30 INFO  (HeadlessAnalyzer) IMPORTING: file://$APP/Contents/MacOS/Bitcoin-Qt  
+2026-11-20 12:02:31 INFO  (ProgramLoader) Using Loader: Mac OS X Mach-O  
+2026-11-20 12:02:31 INFO  (ProgramLoader) Using Language/Compiler: AARCH64:LE:64:AppleSilicon:default  
+2026-11-20 12:02:31 INFO  (ProgramLoader) Using Library Search Path: [., /System/Library/dyld/dyld_shared_cache_arm64e, /System/Library/dyld/dyld_shared_cache_x86_64, /System/Library/dyld/dyld_shared_cache_x86_64h, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_arm64e, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_x86_64, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_x86_64h, $HOME/Library/Java/Extensions, /Library/Java/Extensions, /Network/Library/Java/Extensions, /System/Library/Java/Extensions, /usr/lib/java]  
+2026-11-20 12:02:33 INFO  (ProgramLoader) Additional info:
+Loading file://$APP/Contents/MacOS/Bitcoin-Qt?MD5=371817785cc059dfbc563a20f7aaa253...
+Discovered 65324 DYLD_CHAINED_PTR_64 chained pointers.
+Fixed up 65324 chained pointers.
+SymbolTableCommand> Failed to markup: LC_SYMTAB (symbols) - Bitcoin-Qt
+Bitcoin-Qt: installed 8 objc SpecExtensions
+------------------------------------------------
+
+Linking the External Programs of 'Bitcoin-Qt' to imported libraries...
+  [/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO] -> not found in project
+  [/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics] -> not found in project
+  [/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText] -> not found in project
+  [/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon] -> not found in project
+  [/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices] -> not found in project
+  [/System/Library/Frameworks/ColorSync.framework/Versions/A/ColorSync] -> not found in project
+  [/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices] -> not found in project
+  [/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation] -> not found in project
+  [/usr/lib/libobjc.A.dylib] -> not found in project
+  [/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo] -> not found in project
+  [/System/Library/Frameworks/IOSurface.framework/Versions/A/IOSurface] -> not found in project
+  [/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore] -> not found in project
+  [/System/Library/Frameworks/Metal.framework/Versions/A/Metal] -> not found in project
+  [/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit] -> not found in project
+  [/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation] -> not found in project
+  [/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit] -> not found in project
+  [/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers] -> not found in project
+  [/System/Library/Frameworks/Security.framework/Versions/A/Security] -> not found in project
+  [/usr/lib/libc++.1.dylib] -> not found in project
+  [/usr/lib/libSystem.B.dylib] -> not found in project
+------------------------------------------------
+
+  
+2026-11-20 12:02:33 INFO  (HeadlessAnalyzer) IMPORTING: Loaded 0 additional files  
+2026-11-20 12:02:33 INFO  (HeadlessAnalyzer) ANALYZING all memory and code: file://$APP/Contents/MacOS/Bitcoin-Qt  
+2026-11-20 12:02:40 ERROR (PngDataType) Invalid PNG data at 101b5528e  
+2026-11-20 12:02:40 ERROR (PngDataType) Invalid PNG data at 101e42828  
+2026-11-20 12:02:47 INFO  (DecompilerSwitchAnalyzer) hit non-returning function, restarting decompiler switch analyzer later  
+2026-11-20 12:04:22 ERROR (VarnodeContext) VarnodeContext: out of address spaces at @1004184d0 for: x12-1004184d0  
+2026-11-20 12:05:27 ERROR (VarnodeContext) VarnodeContext: out of address spaces at @1004184d0 for: x10-1004184d0  
+2026-11-20 12:07:26 ERROR (InternalResultListener) Unexpected exception getting Decompiler result java.util.concurrent.ExecutionException: java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "classList" is null
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	at generic.concurrent.QResult.<init>(QResult.java:40)
+	at generic.concurrent.FutureTaskMonitor.run(FutureTaskMonitor.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "classList" is null
+	at ghidra.app.plugin.core.analysis.ObjcMessageAnalyzer.setReference(ObjcMessageAnalyzer.java:966)
+	at ghidra.app.plugin.core.analysis.ObjcMessageAnalyzer.setCommentAndReference(ObjcMessageAnalyzer.java:483)
+	at ghidra.app.plugin.core.analysis.ObjcMessageAnalyzer.fixMsgSendCalls(ObjcMessageAnalyzer.java:382)
+	at ghidra.app.plugin.core.analysis.ObjcMessageAnalyzer$1.process(ObjcMessageAnalyzer.java:148)
+	at ghidra.app.plugin.core.analysis.ObjcMessageAnalyzer$1.process(ObjcMessageAnalyzer.java:145)
+	at ghidra.app.decompiler.parallel.DecompilerCallback.process(DecompilerCallback.java:80)
+	at ghidra.app.decompiler.parallel.DecompilerCallback.process(DecompilerCallback.java:41)
+	at generic.concurrent.ConcurrentQ$CallbackCallable.call(ConcurrentQ.java:706)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at generic.concurrent.FutureTaskMonitor.run(FutureTaskMonitor.java:75)
+	... 3 more
+ 
+2026-11-20 12:11:32 ERROR (InternalResultListener) Unexpected exception getting Decompiler result java.util.concurrent.ExecutionException: java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "classList" is null
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	at generic.concurrent.QResult.<init>(QResult.java:40)
+	at generic.concurrent.FutureTaskMonitor.run(FutureTaskMonitor.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "classList" is null
+	at ghidra.app.plugin.core.analysis.ObjcMessageAnalyzer.setReference(ObjcMessageAnalyzer.java:966)
+	at ghidra.app.plugin.core.analysis.ObjcMessageAnalyzer.setCommentAndReference(ObjcMessageAnalyzer.java:483)
+	at ghidra.app.plugin.core.analysis.ObjcMessageAnalyzer.fixMsgSendCalls(ObjcMessageAnalyzer.java:382)
+	at ghidra.app.plugin.core.analysis.ObjcMessageAnalyzer$1.process(ObjcMessageAnalyzer.java:148)
+	at ghidra.app.plugin.core.analysis.ObjcMessageAnalyzer$1.process(ObjcMessageAnalyzer.java:145)
+	at ghidra.app.decompiler.parallel.DecompilerCallback.process(DecompilerCallback.java:80)
+	at ghidra.app.decompiler.parallel.DecompilerCallback.process(DecompilerCallback.java:41)
+	at generic.concurrent.ConcurrentQ$CallbackCallable.call(ConcurrentQ.java:706)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at generic.concurrent.FutureTaskMonitor.run(FutureTaskMonitor.java:75)
+	... 3 more
+ 
+2026-11-20 12:15:16 DEBUG (FidAnalyzer) No FID Libraries apply for language AARCH64:LE:64:AppleSilicon  
+2026-11-20 12:15:16 INFO  (PackedDatabaseCache) Packed database cache: $TMPDIR/packed-db-cache  
+2026-11-20 12:15:16 DEBUG (PackedDatabaseCache) Caching packed database: $HOME/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/data/typeinfo/mac_10.9/mac_osx.gdt  
+2026-11-20 12:15:16 DEBUG (PackedDatabase) Unpacking database $HOME/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/data/typeinfo/mac_10.9/mac_osx.gdt -> $TMPDIR/packed-db-cache/pdb693C9C7A/db.1.gbf  
+2026-11-20 12:15:16 DEBUG (PackedDatabaseCache) Cache update completed: $HOME/Applications/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/data/typeinfo/mac_10.9/mac_osx.gdt  
+2026-11-20 12:15:16 INFO  (ApplyDataArchiveAnalyzer) Applied data type archive: mac_osx  
+2026-11-20 12:15:51 ERROR (InternalResultListener) Unexpected exception getting Decompiler result java.util.concurrent.ExecutionException: java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "classList" is null
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	at generic.concurrent.QResult.<init>(QResult.java:40)
+	at generic.concurrent.FutureTaskMonitor.run(FutureTaskMonitor.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "classList" is null
+	at ghidra.app.plugin.core.analysis.ObjcMessageAnalyzer.setReference(ObjcMessageAnalyzer.java:966)
+	at ghidra.app.plugin.core.analysis.ObjcMessageAnalyzer.setCommentAndReference(ObjcMessageAnalyzer.java:483)
+	at ghidra.app.plugin.core.analysis.ObjcMessageAnalyzer.fixMsgSendCalls(ObjcMessageAnalyzer.java:382)
+	at ghidra.app.plugin.core.analysis.ObjcMessageAnalyzer$1.process(ObjcMessageAnalyzer.java:148)
+	at ghidra.app.plugin.core.analysis.ObjcMessageAnalyzer$1.process(ObjcMessageAnalyzer.java:145)
+	at ghidra.app.decompiler.parallel.DecompilerCallback.process(DecompilerCallback.java:80)
+	at ghidra.app.decompiler.parallel.DecompilerCallback.process(DecompilerCallback.java:41)
+	at generic.concurrent.ConcurrentQ$CallbackCallable.call(ConcurrentQ.java:706)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at generic.concurrent.FutureTaskMonitor.run(FutureTaskMonitor.java:75)
+	... 3 more
+ 
+2026-11-20 12:16:38 ERROR (VarnodeContext) VarnodeContext: out of address spaces at @1004184d0 for: x10-1004184d0  
+2026-11-20 12:17:46 INFO  (AutoAnalysisManager) -----------------------------------------------------
+    AARCH64 ELF PLT Thunks                     0.000 secs
+    ASCII Strings                              3.816 secs
+    Apply Data Archives                        0.338 secs
+    Basic Constant Reference Analyzer         58.116 secs
+    CFStrings                                  0.014 secs
+    Call Convention ID                         2.652 secs
+    Call-Fixup Installer                       1.392 secs
+    Create Address Tables                      5.111 secs
+    Create Address Tables - One Time           3.150 secs
+    Create Function                            4.898 secs
+    Data Reference                            10.368 secs
+    Decompiler Switch Analysis                55.342 secs
+    Decompiler Switch Analysis - One Time      8.242 secs
+    Demangler GNU                              3.992 secs
+    Disassemble                               14.698 secs
+    Disassemble Entry Points                   4.436 secs
+    Embedded Media                             0.137 secs
+    External Entry References                  0.000 secs
+    Function ID                                0.058 secs
+    Function Start Search                      0.542 secs
+    Function Start Search After Code           0.611 secs
+    Function Start Search After Data           0.613 secs
+    Function Start Search delayed - One Time   2.269 secs
+    Mach-O Function Starts                     8.804 secs
+    Non-Returning Functions - Discovered       9.264 secs
+    Non-Returning Functions - Known            0.016 secs
+    Objective-C Message Analyzer             601.178 secs
+    Objective-C Type Metadata Analyzer         2.380 secs
+    Reference                                  3.211 secs
+    Shared Return Calls                        4.116 secs
+    Stack                                     93.341 secs
+    Subroutine References                      9.677 secs
+    Subroutine References - One Time           0.017 secs
+-----------------------------------------------------
+     Total Time   912 secs
+-----------------------------------------------------
+  
+2026-11-20 12:17:46 INFO  (HeadlessAnalyzer) REPORT: Analysis succeeded for file: file://$APP/Contents/MacOS/Bitcoin-Qt  
+2026-11-20 12:17:46 INFO  (LocalFileSystem) /Bitcoin-Qt: file created (agentegress)  
+2026-11-20 12:17:46 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for: /Bitcoin-Qt (bitcoin-qt-32.1:/Bitcoin-Qt)  
+2026-11-20 12:17:46 INFO  (HeadlessAnalyzer) REPORT: Import succeeded  
