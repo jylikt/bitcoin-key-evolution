@@ -1,0 +1,16 @@
+.DS_Store
+work/
+__pycache__/
+*.pyc
+*.gpr
+*.rep/
+*.app/
+*.exe
+*.dll
+*.rar
+*.zip
+*.tar.gz
+wallet.dat
+*.cookie
+.env
+.env.*
